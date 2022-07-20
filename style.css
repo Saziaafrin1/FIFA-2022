@@ -11,10 +11,11 @@ main{
 }
 
 .banner{
-    display: flex;   
-    justify-content:space-between;
+    display: flex;
+    width: 1000px;
+    align-items: center;
     border: 1px solid black;
-    margin: 21px 30px 30px;
+    margin: 21px 80px 30px;
     border-radius: 30px;
     background-color: hsl(0, 0%, 0%);
     }
@@ -46,5 +47,53 @@ h2{
     text-decoration: none;
     color: whitesmoke;
 }
+/* players style */
+
+.players{
+    display: flex;
+    
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 25px;
+    
+}
+
+/* player card style*/
+.box{
+    border: 1px solid lightgray;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+/* Form style */
+.form{
+    border: 2px solid black;
+    height: 240px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+.input-style{
+    text-align: center;
+    width: 150px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700px;
+    padding: 10px;
+    margin: 20px 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.Blog{
+    background-color: red;
+    color: white;
+}
+
+    
+
     
         
